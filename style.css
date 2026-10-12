@@ -8,12 +8,14 @@
 body {
     background-color: #121212;
     font-family: Helvetica, sans-serif;
-    margin: 20px;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 850px;
 }
 
 header {
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 100px 1fr;
     align-items: center;
     column-gap: 20px;
 }
