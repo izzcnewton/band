@@ -74,3 +74,45 @@ a:hover {
     color: #e5e5dc;
     text-decoration: underline;
 }
+
+.song-card {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  gap: 15px;
+}
+
+.cover {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.song-info {
+  min-width: 0;
+}
+
+.audio-controls {
+  display: block;
+  width: 300px;
+  height: 30px;
+  max-width: 100%;
+  margin: 16px 0;
+}
+
+.song-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+  font-family: Arial, sans-serif;
+}
+
+.artist-name {
+  font-size: 14px;
+  color: #aaaaaa;
+  margin: 0 0 8px 0;
+  font-family: Arial, sans-serif;
+}
