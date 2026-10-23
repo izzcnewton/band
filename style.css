@@ -52,7 +52,7 @@ li {
     margin-top: 5px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, a{
     margin-left: 15px;
 }
 
@@ -65,4 +65,19 @@ a:visited {
 a:hover {
     color: #e5e5dc;
     text-decoration: underline;
+}
+
+.post {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    border-radius: 8px; 
+}
+
+.post small {
+    display: block;
+    color: #666;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
